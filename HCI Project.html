@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>My Cinema</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+  <body>    
+    <nav  class=" navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a href="" class="navbar-brand">My Cinema</a>
+        <a href="HCI Project.html" data-toggle="collapsa" class="navbar-toggler">
+            <span class="navbar-toggler-icon"></span>
+        </a>
+        <div id="#x" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Movies</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Food&Drinks</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Find Us</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Ways to Watch</a></li>
+            </ul>
+        </div>
+    </nav>
+    <hr><br>
+    
+<div class="container">
+    <div class="row">
+<div class="col-lg-2 p-1">
+<div class="card" style="width: 10rem;">
+    <img src="1.jpg" class="card-img-top" alt=".....">
+    <div class="card-body">
+        <h5 class="card-title" style="font-size:large;"> Spider-man:No Way Home </h5>
+        <p class="card-text" style="font-size: small;">Peter asks Doctor Strange for help.forcing Peter to discover what it truly means to be Spider-Man.</p>
+        <a href="#" class="btn btn-success">Book It</a> 
+    </div>
+</div>
+</div>
+
+<div class="col-lg-2 p-1">
+<div class="card" style="width: 10rem;">
+    <img src="1.jpg" class="card-img-top" alt=".....">
+    <div class="card-body">
+        <h5 class="card-title" style="font-size:large;"> Spider-man:No Way Home </h5>
+        <p class="card-text" style="font-size: small;">Peter asks Doctor Strange for help.forcing Peter to discover what it truly means to be Spider-Man.</p>
+        <a href="#" class="btn btn-success">Book It</a> 
+    </div>
+</div>
+</div>
+<div class="col-lg-2 p-1">
+<div class="card" style="width: 10rem;">
+    <img src="1.jpg" class="card-img-top" alt=".....">
+    <div class="card-body">
+        <h5 class="card-title" style="font-size:large;"> Spider-man:No Way Home </h5>
+        <p class="card-text" style="font-size: small;">Peter asks Doctor Strange for help.forcing Peter to discover what it truly means to be Spider-Man.</p>
+        <a href="#" class="btn btn-success">Book It</a> 
+    </div>
+</div>
+</div>
+
+<div class="col-lg-2 p-1">
+<div class="card" style="width: 10rem;">
+    <img src="1.jpg" class="card-img-top" alt=".....">
+    <div class="card-body">
+        <h5 class="card-title" style="font-size:large;"> Spider-man:No Way Home </h5>
+        <p class="card-text" style="font-size: small;">Peter asks Doctor Strange for help.forcing Peter to discover what it truly means to be Spider-Man.</p>
+        <a href="#" class="btn btn-success">Book It</a> 
+    </div>
+</div>
+</div>
+
+<div class="col-lg-2 p-1">
+    <div class="card" style="width: 10rem;">
+        <img src="1.jpg" class="card-img-top" alt=".....">
+        <div class="card-body">
+            <h5 class="card-title" style="font-size:large;"> Spider-man:No Way Home </h5>
+            <p class="card-text" style="font-size: small;">Peter asks Doctor Strange for help.forcing Peter to discover what it truly means to be Spider-Man.</p>
+            <a href="#" class="btn btn-success">Book It</a> 
+        </div>
+    </div>
+    </div>
+
+
+    <div class="col-lg-2 p-1">
+        <div class="card" style="width: 10rem;">
+            <img src="1.jpg" class="card-img-top" alt=".....">
+            <div class="card-body">
+                <h5 class="card-title" style="font-size:large;"> Spider-man:No Way Home </h5>
+                <p class="card-text" style="font-size: small;">Peter asks Doctor Strange for help.forcing Peter to discover what it truly means to be Spider-Man.</p>
+                <a href="#" class="btn btn-success">Book It</a> 
+            </div>
+        </div>
+        </div>
+
+</div>
+</div>
+
+
+<!---------------------------------------------------------------------------------------------------------->
+
+<div class="col">
+    <p class="card-text-top text-center" style="font-size:xx-large;" >Up Coming</p>
+</div>
+
+<div id="slide" class="carousel slide container w-50  text-center " >
+    <ol class="carousel-indicators">
+        <li data-target="#slide" data-slide-to="0" class="active"></li>
+        <li data-target="#slide" data-slide-to="1"></li>
+        <li data-target="#slide" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active"><img src="Batman.jpg" alt="" class="w-50"></div>
+        <div class="carousel-item "><img src="Dr Strange.jpg" alt="" class="w-50"></div>
+        <div class="carousel-item "><img src="Sonic2.jpg" alt="" class="w-50"></div>
+    </div>
+    <a href="#slide" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+    <a href="#slide" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+</div>
+<hr><br>
+
+<div class="container">
+    <div class="card mb-3">
+        <div class="roe no-gutters">
+            <div class="col">
+                <div class="card-body">
+                    <h4 class="card-title">Contact Us</h4>
+                    <p class="card-text">We are very happy to communicate with you constantly and receive all your inquiries about this project</p>
+                    <form>
+                        <div class="form-groub">
+                            <label>Email</label>
+                            <input placeholder="email" type="email" class="form-control">
+                            <small class="form-text text-muted">Enter Your Email</small>
+                        </div>
+
+                        <div class="form-groub">
+                            <label>password</label>
+                            <input placeholder="password" type="password" class="form-control">
+                            <small class="form-text text-muted"> Enter Your Password</small>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" >
+                            <label class="form-check-label">I'm not a robot</label>
+                        </div>
+                        <div class="form-groub">
+                            <label>City</label>
+                            <select class="form-control">Select
+                                <option>Cairo</option>
+                                <option>Alexandria</option>
+                                <option>Mansoura</option>
+                                <option>Elmahalla Elkubra</option>
+                            </select>
+                        </div>
+                        <hr><br>
+                        <button class="btn btn-outline-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="container">
+<div class="container  pt-2 pb-2">
+    
+    <h5 class="font-weight-bold">Brought To You By</h5>
+    <hr><br>
+    <div class="row">
+        
+       
+        <div class="col-lg-5">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href=""><img height="70" src="Ahmed Elgebaly.jpeg" style="border-radius: 30%;"> </a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-normal">
+                        <a class="text-dark" href="">Ahmed Ayamn Rakha Elgebaly</a>
+                        </h2>
+                        <small class="text-muted">01151074669</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-5">
+            <div class="mb-3 d-flex align-items-center">
+                <a href=""><img height="70" src="Ahmed Elhossiny.jpeg" style="border-radius: 30%;"> </a>
+                <div class="pl-3">
+                    <h2 class="mb-2 h6 font-weight-normal">
+                    <a class="text-dark" href="">Ahmed Elhossiny shindy</a>
+                    </h2>
+                    <small class="text-muted">01026011296</small>
+                </div>
+            </div>
+    </div>
+    <div class="col-lg-5">
+        <div class="mb-3 d-flex align-items-center">
+            <a href=""><img height="70" src="Ahmed Ashraf.jpeg" style="border-radius: 30%;"> </a>
+            <div class="pl-3">
+                <h2 class="mb-2 h6 font-weight-normal">
+                <a class="text-dark" href="">Ahmed ashraf ezzat</a>
+                </h2>
+                <small class="text-muted">01096389430</small>
+            </div>
+        </div>
+</div>
+<div class="col-lg-5">
+    <div class="mb-3 d-flex align-items-center">
+        <a href=""><img height="70" src="Ahmed Shamekh.jpeg" style="border-radius: 30%;"> </a>
+        <div class="pl-3">
+            <h2 class="mb-2 h6 font-weight-normal">
+            <a class="text-dark" href="">Ahmed Ashraf ahmed Shamekh</a>
+            </h2>
+            <small class="text-muted">01065094292</small>
+        </div>
+    </div>
+</div>
+<div class="col-lg-5">
+    <div class="mb-3 d-flex align-items-center">
+        <a href=""><img height="70" src="Ahmed warda.jpeg" style="border-radius: 30%;"> </a>
+        <div class="pl-3">
+            <h2 class="mb-2 h6 font-weight-normal">
+            <a class="text-dark" href="">Ahmed mohamed warda</a>
+            </h2>
+            <small class="text-muted">01203742811</small>
+        </div>
+    </div>
+</div>
+        
+</div>
+</div>
+</div>
+    <footer class="bg-white border-top p-3 text-muted small">
+        <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div><span style="text-transform: capitalize;"><a href="https://metmans.edu.eg/">MET</a> All Rights Reserved &copy; 2022.</span></div>
+            
+        </div>
+        </div>
+    </footer>
+        
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
